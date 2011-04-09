@@ -1,0 +1,16 @@
+/*  This template was created by Mantis-a [http://www.mantisa.cz/]. For more templates visit Free website templates [http://www.mantisatemplates.com/]. */
+
+
+
+/* CSS Document for IE  */
+
+
+.menu li a.active {
+background: url('../template/image/li-hover.gif') repeat-x 0 54%;
+text-decoration: none;
+}
+
+ul.we-do li {
+background: url('../template/image/bullet.gif') no-repeat 0 2px;
+padding: 0 0 2px 27px;
+}

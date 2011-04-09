@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta name="Description" content="Салон красоты" />
+<meta name="Keywords" content="салон красоты, маникюр, педикюр, окрашивание волос, депиляция, эприляция" />
+<meta name="robots" content="all,follow" />
+<meta name="author" content="..." />
+<meta name="copyright" content="still.ru@gmail.com" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="canonical" href="http://stillru.github.com/hair-style.github.com"/>
+<!-- CSS -->
+<link rel="stylesheet" href="/hair-style.github.com/css/style.css" type="text/css" media="screen, projection, tv" />
+<!--[if IE]><link rel="stylesheet" type="text/css" href="/hair-style.github.com/css/style-ie.css" media="screen, projection, tv" /><![endif]-->
+<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="/hair-style.github.com/css/style-ie6.css" media="screen, projection, tv" /><![endif]-->
+<link rel="stylesheet" href="/hair-style.github.com/css/style-print.css" type="text/css" media="print" />
+<!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> -->
+<title>Company name | {{ page.title }}</title>
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+<div id="top">&nbsp;</div>
+<div class="wrapper">
+		<h1><a href="/">COMPANY NAME</a> |  {{ page.title }}</h1>
+		<a href="#skip-menu" class="hidden">Skip menu</a>
+		{% include nav.html %}
+<hr class="noscreen" />
+<div class="content">
+		
+		<!-- Left column -->
+		<div class="column-left">
+		<div class="column-left-in">
+			 {{ content }}
+			<div class="gallery">
+				<div class="photo">
+				<a href="#"><img src="/hair-style.github.com/template/image/foto.jpg" alt="foto 1" width="155" height="110" /></a>
+				<p><a href="#">Example 1</a></p>
+				</div>
+
+				<div class="photo">
+				<a href="#"><img src="/hair-style.github.com/template/image/foto.jpg" alt="foto 2" width="155" height="110" /></a>
+				<p><a href="#">Example 2</a></p>
+				</div>
+
+				<div class="photo">
+				<a href="#"><img src="/hair-style.github.com/template/image/foto.jpg" alt="foto 3" width="155" height="110" /></a>
+				<p><a href="#">Example 3</a></p>
+				</div>
+
+				<div class="cleaner">&nbsp;</div>
+			</div>
+		</div>
+		</div> <!-- Left column end -->
+
+<hr class="noscreen" />
+
+		<!-- Right column -->
+		<div class="column-right">
+		<div class="column-right-in">
+
+			<!-- Board -->
+			<div id="board-top">&nbsp;</div>
+			<div id="board">
+			<div class="board-in">
+			<h3>News and actual offers</h3>
+				<ul>
+    <li><a href="http://stillru.github.com{{ post.url }}" title="{{ post.title }}"><span class="archdate">{{ post.date | date:"%m" }}.{{ post.date | date:"%d" }}.{{ post.date | date:"%Y" }}</span>{{ post.title }}</a>{{ post.content | strip_html | truncate:400  }}<a href="http://stillru.github.com{{ post.url }}">Read More...</a></li>
+  </ul>
+			</div>
+
+			<div class="divider">&nbsp;</div>
+
+			<div class="board-in">
+			<h3>Contact information</h3>
+			</div>
+
+			<div class="paper">
+			<div class="paper-in">
+				<address>
+				Some<br />
+				Street 1212/36<br />
+				500003 City Park<br />
+				<br />
+				E-mail: info&#64;<!---->company.com<br />
+				Fax: 0 123 456 789<br />
+				Tel.: 0 123 456 789
+				</address>
+			</div>
+			</div>
+
+			</div>
+			<div id="board-bottom">&nbsp;</div> <!-- Board end -->
+		</div>
+		</div> <!-- Right column end -->
+		<div class="cleaner">&nbsp;</div>
+		</div> <!-- Content end -->
+
+<hr class="noscreen" />
+
+		<!-- Footer -->
+		<div class="footer">
+		<p class="text-left">&copy; <a href="#">Company name</a>, 2008. All rights reserved.</p>
+		<p class="text-right"><a id="printer" href="#" onclick="print();" title="Javascript needed for a Print">Print</a> &nbsp;|&nbsp; 
+		<a href="#top">Top</a> &uarr;</p>
+		</div>
+		<!-- Footer end -->
+</div>
+	<!-- Wrapper end -->
+</body>
+</html>
+

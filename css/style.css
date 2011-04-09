@@ -1,0 +1,434 @@
+/*  This template was created by Mantis-a [http://www.mantisa.cz/]. For more templates visit Free website templates [http://www.mantisatemplates.com/]. */
+
+
+
+/* CSS Document */
+
+
+/* General */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+html {
+height: 100%;
+font-size: 62.5%;
+}
+
+body {
+height: 100%;
+text-align: center;
+font: 1.2em Verdana, Arial, Helvetica, sans-serif;
+background: #2B1300 url('../template/image/bg.gif') repeat 0 0;
+min-width: 900px;
+}
+
+a:link, a:visited {
+color: #A42A00;
+text-decoration: underline;
+font-weight: bold;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+.cleaner {
+clear: both;
+height: 0;
+font-size: 0;
+visibility: hidden;
+}
+
+.cleaning-box { 
+min-height: 1px;
+}
+
+.cleaning-box:after {
+display: block; 
+clear: both; 
+visibility: hidden; 
+height: 0; 
+font-size: 0; 
+content: ' ';
+}
+
+.noscreen {
+display: none;
+}
+
+.hidden { /* Skip menu */
+position: absolute;
+top: -10000px;
+left: 0;
+width: 1px;
+height: 1px;
+overflow: hidden;
+}
+
+
+/* Wrapper */
+
+.wrapper {
+width: 900px;
+margin: 115px auto 0 auto;
+padding-bottom: 60px;
+text-align: left;
+position: relative;
+}
+
+
+/* Paragraphs, headings, ... */
+
+p {
+color: #A42A00;
+line-height: 1.7;
+}
+
+h1, h1 a:link, h1 a:visited, h2, h3 {
+font-family: Georgia, "Times New Roman", Times, serif;
+font-weight: normal;
+letter-spacing: 1px;
+}
+
+h2, h3 {
+color: #A42A00;
+}
+
+h1 {
+font-size: 2.6em;
+color: #EBD391;
+margin-bottom: 10px;
+}
+
+h1 a:link, h1 a:visited {
+color: #EBD391;
+text-decoration: none;
+}
+
+h2 {
+font-size: 1.8em;
+margin-bottom: 8px;
+}
+
+h3 {
+font-size: 1.5em;
+}
+
+
+/* Search form */
+
+form.searching {
+width: 201px;
+position: absolute;
+top: 6px;
+right: 14px;
+}
+
+fieldset {
+border: 0;
+}
+
+#picture-input {
+position: absolute; 
+top: 0;
+left: 0;
+overflow: hidden;
+width: 162px;
+height: 26px;
+background: url('../template/image/input-bg.png') 0 0 no-repeat;
+border: 0;
+}
+
+#picture-input input {
+position: relative;
+top: 5px;
+left: 37px;
+width: 123px;
+border: 0;
+letter-spacing: 1px;
+background-color: #FFF4D5
+}
+
+form.searching input.hledat {
+letter-spacing: 1px;
+padding-left: 0;
+font-weight: bold;
+color: #FFFFFF;
+position: absolute;
+top: 0;
+right: 0;
+}
+
+form.searching label {
+display: none;
+}
+
+
+/* Menu */
+
+.menu {
+list-style: none;
+width: 870px;
+margin: 5px auto 0 auto;
+padding-left: 30px;
+background: #682E00 url('../template/image/menu-bg.gif') repeat-x 0 0;
+}
+
+.menu li {
+float: left;
+display: inline;
+line-height: 55px;
+margin-right: 2.1em;
+padding-right: 2.1em;
+background: url('../template/image/li-bg.gif') no-repeat 100% 50%;
+white-space: nowrap;
+}
+
+.menu li a, .menu li a:visited {
+float: left;
+display: inline;
+color: #EBD391;
+font-weight: normal;
+padding: 0 7px;
+}
+
+.menu li a:hover {
+color: #FFF4D3;
+}
+
+.menu li a.active {
+background: url('../template/image/li-hover.gif') repeat-x 0 50%;
+text-decoration: none;
+}
+
+.menu li.last {
+background: none;
+}
+
+
+/* Content */
+
+.content {
+width: 900px;
+margin: 0 auto;
+background-color: #FFF4D5;
+}
+
+.column-left {
+float: left;
+width: 63%;
+}
+
+.column-left-in {
+margin: 1.7em 1em 3em 1.8em;
+}
+
+p.text-content:first-letter {
+font-size: 1.4em;
+font-weight: bold;
+line-height: 0.9;
+}
+
+.column-left h3 {
+margin: 17px 0 12px 0;
+}
+
+.column-right {
+float: right;
+width: 36%;
+}
+
+.column-right-in {
+margin: 1.7em 1em 3em 1em;
+}
+
+#board-top {
+width: 295px;
+height: 25px;
+background: #8B5F26 url('../template/image/board-top.gif') no-repeat 0 0;
+}
+
+#board {
+background-color: #8B5F26;
+width: 295px;
+}
+
+.board-in {
+margin: 0 1.8em;
+padding: 0.7em 0;
+}
+
+#board-bottom {
+width: 295px;
+height: 21px;
+background: #8B5F26 url('../template/image/board-bottom.gif') no-repeat 0 0;
+}
+
+#board h3 {
+font-size: 1.35em;
+color: #FFF9E7;
+}
+
+#board dl {
+color: #FFF9E7;
+margin-top: 13px;
+}
+
+#board dt {
+font-size: 0.95em;
+font-weight: bold;
+margin-bottom: 2px;
+}
+
+#board dd {
+margin-bottom: 17px;
+}
+
+#board dd a, #board dd a:visited  {
+color: #FFF9E7;
+font-weight: normal;
+text-decoration: none;
+line-height: 1.3;
+margin-bottom: 17px;
+}
+
+#board dd a:hover {
+text-decoration: underline;
+}
+
+.divider {
+width: 295px;
+height: 13px;
+background: #8B5F26 url('../template/image/divider.gif') no-repeat 0 0;
+margin: -5px 0 16px 0;
+}
+
+.paper {
+width: 295px;
+height: 210px;
+background: #8B5F26 url('../template/image/paper.gif') no-repeat 0 0;
+margin-top: 4px;
+padding-bottom: 9px;
+}
+
+.paper-in {
+margin: 0 2.5em;
+padding-top: 1.7em;
+}
+
+#board address {
+font-style: normal;
+font-weight: bold;
+color: #803900;
+line-height: 1.45;
+background-color: #FFFFFF;
+}
+
+
+/* Lists */
+
+ul.we-do {
+list-style: none;
+margin-bottom: 30px;
+}
+
+ul.we-do li {
+background: url('../template/image/bullet.gif') no-repeat 0 1px;
+padding: 0 0 1px 27px;
+margin-bottom: 10px;
+color: #A42A00;
+line-height: 1.3;
+}
+
+
+/* Image gallery */
+
+.gallery {
+width: 99%;
+}
+
+.photo {
+float: left;
+display: inline;
+width: 174px;
+height: 170px;
+overflow: auto;
+position: relative;
+}
+
+.photo a img {
+margin: 0 auto 1px auto;
+border: 4px solid #DEBE81;
+}
+
+.photo a:hover img {
+border: 4px solid #A42A00;
+}
+
+.photo p, .photo p a, .photo p a:visited {
+margin-left: 1px;
+}
+
+
+/* Footer */
+
+.footer {
+width: 900px;
+height: 47px;
+margin: 0 auto;
+background: #893D00 url('../template/image/footer-bg.gif') repeat-x 0 0;
+border-top: 2px solid #612900;
+}
+
+.footer p {
+color: #FFF4D5;
+line-height: 47px;
+}
+
+.footer p a, .footer p a:visited {
+color: #FFF4D5;
+font-weight: normal;
+}
+
+.footer p.text-left {
+float: left;
+width: 415px;
+margin-left: 27px;
+display: inline;
+}
+
+.footer p.text-right {
+float: right;
+text-align: right;
+width: 415px;
+margin-right: 27px;
+display: inline;
+}
+
+#printer {
+background: url('../template/image/printer.gif') no-repeat 0 bottom;
+padding-left: 27px;
+}
+
+
+p#subfooter {
+color: #C7BEA8;
+font-size: 0.95em;
+text-align: right;
+margin: 7px 4px 0 0;
+}
+
+p#subfooter a, p#subfooter a:visited {
+color: #C7BEA8;
+}
+
+p#subfooter a:hover {
+color: #FFF4D5;
+}
+
+#light-link {
+font-weight: normal;
+}
