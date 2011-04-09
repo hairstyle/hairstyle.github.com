@@ -33,7 +33,23 @@
 		<div class="column-left">
 		<div class="column-left-in">
 			 {{ content }}
-			<div class="cleaner">&nbsp;</div>
+			<div class="gallery">
+				<div class="photo">
+				<a href="#"><img src="template/image/foto.jpg" alt="foto 1" width="155" height="110" /></a>
+				<p><a href="#">Example 1</a></p>
+				</div>
+
+				<div class="photo">
+				<a href="#"><img src="template/image/foto.jpg" alt="foto 2" width="155" height="110" /></a>
+				<p><a href="#">Example 2</a></p>
+				</div>
+
+				<div class="photo">
+				<a href="#"><img src="template/image/foto.jpg" alt="foto 3" width="155" height="110" /></a>
+				<p><a href="#">Example 3</a></p>
+				</div>
+
+				<div class="cleaner">&nbsp;</div>
 			</div>
 		</div>
 		</div> <!-- Left column end -->
@@ -48,6 +64,12 @@
 			<div id="board-top">&nbsp;</div>
 			<div id="board">
 			<div class="board-in">
+			<h3>News and actual offers</h3>
+				<ul>
+    <li><a href="http://hairstyle.github.com{{ post.url }}" title="{{ post.title }}"><span class="archdate">{{ post.date | date:"%m" }}.{{ post.date | date:"%d" }}.{{ post.date | date:"%Y" }}</span>{{ post.title }}</a>{{ post.content | strip_html | truncate:30  }}<a href="http://hairstyle.github.com{{ post.url }}">Read More...</a></li>
+  </ul>
+			</div>
+
 			<div class="divider">&nbsp;</div>
 
 			<div class="board-in">
