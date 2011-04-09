@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Главная
+title: Примеры работ
 ---
 News and actual offers
 25. 4. 08
