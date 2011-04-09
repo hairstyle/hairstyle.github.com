@@ -65,7 +65,7 @@
 			<div id="board">
 			<div class="board-in">
 			<h3>News and actual offers</h3>
-			<a href="http://hairstyle.github.com/{{ post.url }}" title="{{ post.title }}"><span class="archdate">{{ post.date | date:"%m" }}.{{ post.date | date:"%d" }}.{{ post.date | date:"%Y" }}</span>{{ post.title }}</a>{{ post.content | strip_html | truncate:30  }}<a href="http://hairstyle.github.com/{{ post.url }}">Read More...</a>
+			<a href="http://hairstyle.github.com{{ post.url }}" title="{{ post.title }}">{{ post.date | date:"%m" }}.{{ post.date | date:"%d" }}.{{ post.date | date:"%Y" }} {{ post.title }}</a>{{ post.content | strip_html | truncate:30  }}<a href="http://hairstyle.github.com{{ post.url }}">Read More...</a>
 			</div>
 
 			<div class="divider">&nbsp;</div>
