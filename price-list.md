@@ -2,137 +2,174 @@
 layout: default
 title: Прайс-лист
 ---
-**Услуги маникюрного мастера (Женский)**
+<table id="displayTable">
+        <tbody>
+            <tr>
+                <td>
+                    <p>
+                        Show More</p>
+                    <div class="moreInfo">
 
-|Маникюр          |                    |
-|:-----------------------|:------------------:|
-|*Услуги*|*Цена (руб)*|
-|Классический маникюр (обрезной) |600|
-|Аппаратный маникюр |700|
-|Европейский маникюр (не обрезной) |600|
-|Японский маникюр|1200|
-|Горячий маникюр (размягчитель + обработка кутикулы и ногтей)|800|
-|SPA-маникюр (размягчитель +скраб+маска+крем+массаж+обработка кутикулы и ногтей)|1000|
-|SPA-уход|400|
-|Детский маникюр (до 12 лет)|400|
-|Форма ногтей|150|
-|Покрытие лаком (основа + покрытие + закрепитель+сушка)|200|
-|«Французское» покрытие|350|
-|Снятие лака |50|
-|Полировка ногтей|150|
-|Дизайн одного ногтя|50-200|
-|Ремонт одного ногтя|100|
-|Массаж с питательным кремом|250|
-|Массаж с применением скраба|150|
-|Парафинотерапия |400|
-
-|Педикюр| |
-|:-----------------------|:------------------:|
-|*Услуги*|*Цена (руб)*|
-|Классический педикюр |1100|
-|Комбинированный педикюр (классический + аппаратный)|1200|
-|Аппаратный педикюр |1400|
-|SPA-педикюр (размягчитель +скраб + маска + крем + массаж + комбинированная обработка стоп, кутикул и ногтей)|1700|
-|SPA-уход|500|
-|Парафинотерапия|500|
-|Покрытие лаком|200|
-|«Французское» покрытие|350|
-|Снятие лака|50|
-|Полировка ногтей|150|
-|Вросший ноготь|от 150|
-|Удаление одного натоптыша|100|
-|Массаж стоп с питательным кремом|300|
-|Массаж с применением скраба|200|
-
-
-**Услуги маникюрного мастера (Мужской)**
-
-|Маникюр, Педикюр| |
-|:-----------------------|:------------------:|
-|*Услуги*|*Цена (руб)*|
-|Маникюр|700|
-|SPA-маникюр (размягчитель +скраб+маска+крем+массаж+обработка кутикулы и ногтей)|1100|
-|SPA-уход|400|
-|Массаж с питательным кремом|250|
-|Массаж с применением скраба|150|
-|Полировка ногтей|200|
-|Педикюр|1400|
-|Вросший ноготь|от 150|
-|SPA-педикюр  (размягчитель +скраб + маска + крем + массаж + комбинированная обработка стоп, кутикул и ногтей)|1900|
-|SPA-уход|500|
-|Парафинотерапия|500|
-|Удаление одного натоптыша|100|
-|Массаж с питательным кремом|300|
-|Обработка скрабом|200|
-|Полировка ногтей|200|
-
-<table id="customers">
-<tbody><tr>
-  <th>Company</th>
-  <th>Contact</th>
-  <th>Country</th>
-</tr>
-<tr>
-<td>Alfreds Futterkiste</td>
-<td>Maria Anders</td>
-<td>Germany</td>
-</tr>
-<tr class="alt">
-<td>Berglunds snabbköp</td>
-<td>Christina Berglund</td>
-<td>Sweden</td>
-</tr>
-<tr>
-<td>Centro comercial Moctezuma</td>
-<td>Francisco Chang</td>
-<td>Mexico</td>
-</tr>
-<tr class="alt">
-<td>Ernst Handel</td>
-<td>Roland Mendel</td>
-<td>Austria</td>
-</tr>
-<tr>
-<td>Island Trading</td>
-<td>Helen Bennett</td>
-<td>UK</td>
-</tr>
-<tr class="alt">
-<td>Königlich Essen</td>
-<td>Philip Cramer</td>
-<td>Germany</td>
-</tr>
-<tr>
-<td>Laughing Bacchus Winecellars</td>
-<td>Yoshi Tannamuri</td>
-<td>Canada</td>
-</tr>
-<tr class="alt">
-<td>Magazzini Alimentari Riuniti</td>
-<td>Giovanni Rovelli</td>
-<td>Italy</td>
-</tr>
-<tr>
-<td>North/South</td>
-<td>Simon Crowther</td>
-<td>UK</td>
-</tr>
-<tr class="alt">
-<td>Paris spécialités</td>
-<td>Marie Bertrand</td>
-<td>France</td>
-</tr>
-<tr>
-<td>The Big Cheese</td>
-<td>Liz Nixon</td>
-<td>USA</td>
-</tr>
-<tr class="alt">
-<td>Vaffeljernet</td>
-<td>Palle Ibsen</td>
-<td>Denmark</td>
-</tr>
-</tbody></table>
+<TABLE id="displayTable">
+	<TBODY>
+		<TR>
+			<TD ALIGN=LEFT>Услуги</TD>
+			<TD ALIGN=RIGHT>Цена</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=RIGHT><BR></TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Маникюр:</TD>
+			<TD ALIGN=RIGHT><BR></TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Классический маникюр (обрезной) </TD>
+			<TD ALIGN=RIGHT SDVAL="600" SDNUM="1049;">600</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Аппаратный маникюр </TD>
+			<TD ALIGN=RIGHT SDVAL="700" SDNUM="1049;">700</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Европейский маникюр (не обрезной) </TD>
+			<TD ALIGN=RIGHT SDVAL="600" SDNUM="1049;">600</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Японский маникюр</TD>
+			<TD ALIGN=RIGHT SDVAL="1200" SDNUM="1049;">1200</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Горячий маникюр (размягчитель + обработка кутикулы и ногтей)</TD>
+			<TD ALIGN=RIGHT SDVAL="800" SDNUM="1049;">800</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>SPA-маникюр (размягчитель +скраб+маска+крем+массаж+обработка кутикулы и ногтей)</TD>
+			<TD ALIGN=RIGHT SDVAL="1000" SDNUM="1049;">1000</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>SPA-уход</TD>
+			<TD ALIGN=RIGHT SDVAL="400" SDNUM="1049;">400</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Детский маникюр (до 12 лет)</TD>
+			<TD ALIGN=RIGHT SDVAL="400" SDNUM="1049;">400</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Форма ногтей</TD>
+			<TD ALIGN=RIGHT SDVAL="150" SDNUM="1049;">150</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Покрытие лаком (основа + покрытие + закрепитель+сушка)</TD>
+			<TD ALIGN=RIGHT SDVAL="200" SDNUM="1049;">200</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>&laquo;Французское&raquo; покрытие</TD>
+			<TD ALIGN=RIGHT SDVAL="350" SDNUM="1049;">350</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Снятие лака </TD>
+			<TD ALIGN=RIGHT SDVAL="50" SDNUM="1049;">50</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Полировка ногтей</TD>
+			<TD ALIGN=RIGHT SDVAL="150" SDNUM="1049;">150</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Дизайн одного ногтя</TD>
+			<TD ALIGN=RIGHT>50-200</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Ремонт одного ногтя</TD>
+			<TD ALIGN=RIGHT SDVAL="100" SDNUM="1049;">100</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Массаж с питательным кремом</TD>
+			<TD ALIGN=RIGHT SDVAL="250" SDNUM="1049;">250</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Массаж с применением скраба</TD>
+			<TD ALIGN=RIGHT SDVAL="150" SDNUM="1049;">150</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Парафинотерапия </TD>
+			<TD ALIGN=RIGHT SDVAL="400" SDNUM="1049;">400</TD>
+		</TR>
+		</TR>
+	</TBODY>
+</TABLE>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+		<TR>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=RIGHT><BR></TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Педикюр:</TD>
+			<TD ALIGN=RIGHT><BR></TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Классический педикюр </TD>
+			<TD ALIGN=RIGHT SDVAL="1100" SDNUM="1049;">1100</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Комбинированный педикюр (классический + аппаратный)</TD>
+			<TD ALIGN=RIGHT SDVAL="1200" SDNUM="1049;">1200</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Аппаратный педикюр </TD>
+			<TD ALIGN=RIGHT SDVAL="1400" SDNUM="1049;">1400</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>SPA-педикюр (размягчитель +скраб + маска + крем + массаж + комбинированная обработка стоп, кутикул и ногтей)</TD>
+			<TD ALIGN=RIGHT SDVAL="1700" SDNUM="1049;">1700</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>SPA-уход</TD>
+			<TD ALIGN=RIGHT SDVAL="500" SDNUM="1049;">500</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Парафинотерапия</TD>
+			<TD ALIGN=RIGHT SDVAL="500" SDNUM="1049;">500</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Покрытие лаком</TD>
+			<TD ALIGN=RIGHT SDVAL="200" SDNUM="1049;">200</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>&laquo;Французское&raquo; покрытие</TD>
+			<TD ALIGN=RIGHT SDVAL="350" SDNUM="1049;">350</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Снятие лака</TD>
+			<TD ALIGN=RIGHT SDVAL="50" SDNUM="1049;">50</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Полировка ногтей</TD>
+			<TD ALIGN=RIGHT SDVAL="150" SDNUM="1049;">150</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Вросший ноготь</TD>
+			<TD ALIGN=RIGHT>от 150</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Удаление одного натоптыша</TD>
+			<TD ALIGN=RIGHT SDVAL="100" SDNUM="1049;">100</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Массаж стоп с питательным кремом</TD>
+			<TD ALIGN=RIGHT SDVAL="300" SDNUM="1049;">300</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=LEFT>Массаж с применением скраба      </TD>
+			<TD ALIGN=RIGHT SDVAL="200" SDNUM="1049;">200</TD>
+		</TR>
+	</TBODY>
+</TABLE>
 
 <table id="displayTable">
         <tbody>
