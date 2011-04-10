@@ -21,7 +21,7 @@ body {
 height: 100%;
 text-align: center;
 font: 1.2em Verdana, Arial, Helvetica, sans-serif;
-background: #2B1300 url(../template/image/bg.gif) repeat 0 0;
+background: #2B1300 url('../template/image/bg.gif') repeat 0 0;
 min-width: 900px;
 }
 
@@ -212,12 +212,9 @@ background: none;
 /* Content */
 
 .content {
-	width: 900px;
-	margin: 0 auto;
-	background-color: #FFF4D5;
-	background-attachment: scroll;
-	background-image: url(../template/image/fon.jpg);
-	background-repeat: repeat-y;
+width: 900px;
+margin: 0 auto;
+background-color: #FFF4D5;
 }
 
 .column-left {
