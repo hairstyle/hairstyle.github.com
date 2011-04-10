@@ -8,12 +8,7 @@ title: Прайс-лист
                 <td>
                     <p>
                         Show More</p>
-                    <div class="moreInfo">
-
-<TABLE id="displayTable">
-	<TBODY>
-		<TR>
-			<TD ALIGN=LEFT>Услуги</TD>
+                    <div class="moreInfo">Услуги</TD>
 			<TD ALIGN=RIGHT>Цена</TD>
 		</TR>
 		<TR>
