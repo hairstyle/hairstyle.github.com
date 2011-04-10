@@ -4,56 +4,53 @@ title: Прайс-лист
 ---
 
 **Услуги косметологического кабинета**
-
-|   |  |  |
-|:--|-:|-:|
-|*Услуга*|*от*|*до*|
-|Демакияж|200| |
-|Эксфолиация|100| |
-|Окраска бровей|250| |
-|Окраска ресниц|250| |
-|Коррекция бровей|от 300| |
-|***Чистка лица***| | |
-|Чистка мануальная в зависимости от сложности|от 1000| |
-|УЗ чистка|800| |
-|Дезинкрустация |500| |
-|***Маски***| | |
-|Маски/сыворотки увлажняющие, себорегулирующие, питательные и пр.|150|300|
-|Маски альгинатные|350|500|
-|***Массаж***| | |
-|Массаж по Ахабадзе 20 мин|600| |
-|Массаж по Жаке 10 мин|250| |
-|Массаж лимфодренажный|700| |
-|Массаж вибрационно-пластический|1000| |
-|Массаж шиатцу|400| |
-|Хиромассаж|2000| |
-|***Аппаратная косметология***| | |
-|Фонофорез|450| |
-|Ионофорез|450| |
-|Дарсонваль|250| |
-|***Уход за лицом***| | |
-|Уход комплексный|от 1500| |
-|Уход "Анти-акне"|1700|2700|
-|Уход "Анстресс"|2700|3000|
-|Уход "Вспышка красоты"|1500| |
-|***Уход за руками***| | |
-|«Бархатные ручки»|600| |
-|Массаж рук|250| |
-|***Пилинг***| | |
-|Пилинг энзимный|500| |
-|Пилинги фруктовыми кислотами осветляющий/омолаживающий|1500| |
-|Пилинг ретиноловый|3800| |
-|***Мезотерапия***| | |
-|Мезотерапия лица|от 2500| |
-|Биоревитализация|от 3500| |
-|Мезотерапия головы (облысение)|от 2500| |
-|Мезотерапия тела (целлюлит)|от 4000| |
-|Мезо СПА|от 5000| |
-|***Контурная пластика***| | |
-|Увеличение объема губ|от 9000| |
-|Коррекция морщин|от 9000| |
-|Биоармирование|от 9000| |
-
+<tbody><tr><td style="text-align: left;"><em>Услуга</em></td><td style="text-align: right;"><em>от</em></td><td style="text-align: right;"><em>до</em></td>
+</tr><tr><td style="text-align: left;">Демакияж</td><td style="text-align: right;">200</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Эксфолиация</td><td style="text-align: right;">100</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Окраска бровей</td><td style="text-align: right;">250</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Окраска ресниц</td><td style="text-align: right;">250</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Коррекция бровей</td><td style="text-align: right;">от 300</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;"><strong><em>Чистка лица</em></strong></td><td style="text-align: right;"></td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Чистка мануальная в зависимости от сложности</td><td style="text-align: right;">от 1000</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">УЗ чистка</td><td style="text-align: right;">800</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Дезинкрустация</td><td style="text-align: right;">500</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;"><strong><em>Маски</em></strong></td><td style="text-align: right;"></td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Маски/сыворотки увлажняющие, себорегулирующие, питательные и пр.</td><td style="text-align: right;">150</td><td style="text-align: right;">300</td>
+</tr><tr><td style="text-align: left;">Маски альгинатные</td><td style="text-align: right;">350</td><td style="text-align: right;">500</td>
+</tr><tr><td style="text-align: left;"><strong><em>Массаж</em></strong></td><td style="text-align: right;"></td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Массаж по Ахабадзе 20 мин</td><td style="text-align: right;">600</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Массаж по Жаке 10 мин</td><td style="text-align: right;">250</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Массаж лимфодренажный</td><td style="text-align: right;">700</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Массаж вибрационно-пластический</td><td style="text-align: right;">1000</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Массаж шиатцу</td><td style="text-align: right;">400</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Хиромассаж</td><td style="text-align: right;">2000</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;"><strong><em>Аппаратная косметология</em></strong></td><td style="text-align: right;"></td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Фонофорез</td><td style="text-align: right;">450</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Ионофорез</td><td style="text-align: right;">450</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Дарсонваль</td><td style="text-align: right;">250</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;"><strong><em>Уход за лицом</em></strong></td><td style="text-align: right;"></td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Уход комплексный</td><td style="text-align: right;">от 1500</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Уход “Анти-акне”</td><td style="text-align: right;">1700</td><td style="text-align: right;">2700</td>
+</tr><tr><td style="text-align: left;">Уход “Анстресс”</td><td style="text-align: right;">2700</td><td style="text-align: right;">3000</td>
+</tr><tr><td style="text-align: left;">Уход “Вспышка красоты”</td><td style="text-align: right;">1500</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;"><strong><em>Уход за руками</em></strong></td><td style="text-align: right;"></td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">«Бархатные ручки»</td><td style="text-align: right;">600</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Массаж рук</td><td style="text-align: right;">250</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;"><strong><em>Пилинг</em></strong></td><td style="text-align: right;"></td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Пилинг энзимный</td><td style="text-align: right;">500</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Пилинги фруктовыми кислотами осветляющий/омолаживающий</td><td style="text-align: right;">1500</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Пилинг ретиноловый</td><td style="text-align: right;">3800</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;"><strong><em>Мезотерапия</em></strong></td><td style="text-align: right;"></td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Мезотерапия лица</td><td style="text-align: right;">от 2500</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Биоревитализация</td><td style="text-align: right;">от 3500</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Мезотерапия головы (облысение)</td><td style="text-align: right;">от 2500</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Мезотерапия тела (целлюлит)</td><td style="text-align: right;">от 4000</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Мезо СПА</td><td style="text-align: right;">от 5000</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;"><strong><em>Контурная пластика</em></strong></td><td style="text-align: right;"></td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Увеличение объема губ</td><td style="text-align: right;">от 9000</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Коррекция морщин</td><td style="text-align: right;">от 9000</td><td style="text-align: right;">
+</td></tr><tr><td style="text-align: left;">Биоармирование</td><td style="text-align: right;">от 9000</td><td style="text-align: right;">
+</td></tr></tbody>
 
 
 

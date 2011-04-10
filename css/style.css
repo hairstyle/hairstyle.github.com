@@ -437,13 +437,18 @@ font-weight: normal;
 }
 
 #Tables
-td, th, tr {
+td{
 font-size:1.2em;
 border:1px solid #98bf21;
 padding:3px 7px 2px 7px;
 }
 
-tr.alt td {
+tr{
+color:#000;
+background-color:red;
+}
+
+tr.alt {
 color:#000;
 
 background-color:#EAF2D3;
