@@ -67,15 +67,6 @@
 			<div id="board-top">&nbsp;</div>
 			<div id="board">
 			<div class="board-in">
-			<h3>News and actual offers</h3>
-{% for post in site.posts limit:4 %}
-			<a href="http://hairstyle.github.com{{ post.url }}" title="{{ post.title }}">{{ post.date | date:"%m" }}.{{ post.date | date:"%d" }}.{{ post.date | date:"%Y" }} {{ post.title }}</a></br>{{ post.content | truncate:256 }}</br><a href="http://hairstyle.github.com{{ post.url }}">Read More...</a>
-{% endfor %}
-			</div>
-
-			<div class="divider">&nbsp;</div>
-
-			<div class="board-in">
 			<h3>Contact information</h3>
 			</div>
 
