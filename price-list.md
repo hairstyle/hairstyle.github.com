@@ -2,29 +2,27 @@
 layout: default
 title: Прайс-лист
 ---
-<table id="displayTable">
-        <tbody>
-            <tr>
-                <td>
-                    <p>
-                        Show More</p>
+<TABLE id="displayTable">
+        <TBODY>
+            <TR>
+                <TD><p>Show More</p>
                     <div class="moreInfo">Услуги</TD>
-			<TD ALIGN=RIGHT>Цена</TD>
-		</TR>
-		<TR>
-			<TD ALIGN=LEFT><BR></TD>
-			<TD ALIGN=RIGHT><BR></TD>
-		</TR>
-		<TR>
-			<TD ALIGN=LEFT>Маникюр:</TD>
-			<TD ALIGN=RIGHT><BR></TD>
-		</TR>
-		<TR>
-			<TD ALIGN=LEFT>Классический маникюр (обрезной) </TD>
-			<TD ALIGN=RIGHT SDVAL="600" SDNUM="1049;">600</TD>
-		</TR>
-		<TR>
-			<TD ALIGN=LEFT>Аппаратный маникюр </TD>
+		<TD ALIGN=RIGHT>Цена</TD>
+	    </TR>
+	    <TR>
+		<TD ALIGN=LEFT><BR></TD>
+		<TD ALIGN=RIGHT><BR></TD>
+            </TR>
+	    <TR>
+		<TD ALIGN=LEFT>Маникюр:</TD>
+		<TD ALIGN=RIGHT><BR></TD>
+	    </TR>
+	    <TR>
+		<TD ALIGN=LEFT>Классический маникюр (обрезной) </TD>
+		<TD ALIGN=RIGHT SDVAL="600" SDNUM="1049;">600</TD>
+	    </TR>
+	    <TR>
+	        <TD ALIGN=LEFT>Аппаратный маникюр </TD>
 			<TD ALIGN=RIGHT SDVAL="700" SDNUM="1049;">700</TD>
 		</TR>
 		<TR>
@@ -93,11 +91,13 @@ title: Прайс-лист
 		</TR>
 	</TBODY>
 </TABLE>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+</div>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+<TABLE id="displayTable">
+        <TBODY>
 		<TR>
 			<TD ALIGN=LEFT><BR></TD>
 			<TD ALIGN=RIGHT><BR></TD>
@@ -165,9 +165,8 @@ title: Прайс-лист
 	</TBODY>
 </TABLE>
 
-<table id="displayTable">
-        <tbody>
-            <tr>
+<TABLE id="displayTable">
+        <TBODY>
                 <td>
                     <p>
                         Show More</p>
@@ -194,5 +193,5 @@ title: Прайс-лист
                     </div>
                 </td>
             </tr>
-        </tbody>
-    </table>
+        </TBODY>
+    </TABLE>
