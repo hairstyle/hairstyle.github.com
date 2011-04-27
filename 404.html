@@ -23,7 +23,7 @@
 <body>
 <div id="top">&nbsp;</div>
 <div class="wrapper">
-		<h1><a href="/">RAMA-RAM</a> |  404</h1>
+		<h1><a href="/">RAMA-RAMA</a> |  404</h1>
 		<a href="#skip-menu" class="hidden">Skip menu</a>
 		{% include nav.html %}
 <hr class="noscreen" />
@@ -32,8 +32,8 @@
 		<!-- Left column -->
 		<div class="column-left">
 		<div class="column-left-in">
-			 # Ошибка 404 #
-			 Такой странички не существует.
+			 <h1> Ошибка 404 </h1>
+			 <p size=4 style=center>Такой странички не существует.</p>
 			 
 			 <a href="/">На главную</a>
 			<div class="gallery">
@@ -68,7 +68,9 @@
 			<div id="board">
 			<div class="board-in">
 			<h3>News and actual offers</h3>
-			<a href="http://hairstyle.github.com{{ post.url }}" title="{{ post.title }}">{{ post.date | date:"%m" }}.{{ post.date | date:"%d" }}.{{ post.date | date:"%Y" }} {{ post.title }}</a>{{ post.content | strip_html | truncate:30  }}<a href="http://hairstyle.github.com{{ post.url }}">Read More...</a>
+{% for post in site.posts limit:4 %}
+			<a href="http://hairstyle.github.com{{ post.url }}" title="{{ post.title }}">{{ post.date | date:"%m" }}.{{ post.date | date:"%d" }}.{{ post.date | date:"%Y" }} {{ post.title }}</a></br>{{ post.content | truncate:256 }}</br><a href="http://hairstyle.github.com{{ post.url }}">Read More...</a>
+{% endfor %}
 			</div>
 
 			<div class="divider">&nbsp;</div>
