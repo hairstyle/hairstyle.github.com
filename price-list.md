@@ -91,7 +91,6 @@ title: Прайс-лист
 			<TD ALIGN=LEFT>Парафинотерапия </TD>
 			<TD ALIGN=RIGHT SDVAL="400" SDNUM="1049;">400</TD>
 		</TR>
-		</TR>
 	</TBODY>
 </TABLE>
                     </div>
